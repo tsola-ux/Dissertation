@@ -20,3 +20,11 @@ Dissertation_AI_Cyber/
     models/
       phishing_ai_detector.pkl
     .venv/
+
+
+
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install streamlit scikit-learn joblib pandas numpy
+python -m streamlit run app.py
